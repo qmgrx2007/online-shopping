@@ -1,0 +1,27 @@
+/*公用*/
+.comWidth{width: 1000px;margin: 0 auto}
+
+/*topBar*/
+.topBar{height: 31px ;background-color: #F7F7F7;line-height: 31px}
+.leftArea{ float: left;}
+.rightArea{float: right;font-weight: bold}
+.collection{background: url("../img/icon/cutImg/collection.jpg") left center no-repeat ; padding-left: 17px ;font-weight: bold}
+.topBar a:hover{color:red}
+
+/*logoBar*/
+.logoBar{ height:84px; background-color: #1D7AD9 }
+.logo{padding-top: 13px; padding-left: 41px}
+.search_box{width: 430px ;height: 35px; padding-top: 22px;padding-left: 165px}
+.search_text{height: 35px;width: 350px ;background: #F7F7F7 ; line-height:35px\9;padding: 0 5px}
+
+
+.search_btn{background-color: #FF8C00 ; width: 70px ; height:35px;font-size: 14px;font-family: 微软雅黑 }
+
+/*shopCar*/
+.shopCar{ width: 145px; height: 35px;  background-color: #FF8C00; margin-top: 22px; font:14px/35px 微软雅黑; margin-left: 59px}
+.shopText{height: 100%; border-right: 1px #E27A00 solid ;width: 87px;/*font-family: 微软雅黑;font-size: 14px; line-height: 35px*/
+    background: url("../img/icon/cutImg/shopcar.jpg ") 10px center no-repeat; text-indent: 40px;color:#ffffff}
+.shopNum{ background: url("../img/icon/cutImg/shopNUm.gif")  33px center no-repeat;width: 27px;height: 35px;
+    padding-right: 29px;color: #FFF;border-left: 1px #AFBB01 solid; text-align: right }
+/*navBox*/
+.navBox{width: 35px;background-color: #1369C0}
