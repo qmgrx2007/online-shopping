@@ -24,4 +24,13 @@
 .shopNum{ background: url("../img/icon/cutImg/shopNUm.gif")  33px center no-repeat;width: 27px;height: 35px;
     padding-right: 29px;color: #FFF;border-left: 1px #AFBB01 solid; text-align: right }
 /*navBox*/
-.navBox{width: 35px;background-color: #1369C0}
+
+.navBox{height: 35px;background-color: #1369C0; color: #FFFFFF; }
+.nav{list-style-type: none; text-align: center;}
+.nav li{ font: 14px 微软雅黑; float: left;  line-height: 35px}
+.nav a{height: 35px;padding: 0 35px; display: inline-block;color: #FFF}
+.nav .active{background-color: #519AFD}
+.shopClass{width:189px;font: 16px/35px 微软雅黑;}
+.shopClass i{width: 13px;height: 7px;background: url("../img/icon/cutImg/sanjiao.jpg")
+left center no-repeat; display: inline-block;overflow: hidden ;margin-left: 10px}
+
