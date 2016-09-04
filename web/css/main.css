@@ -24,13 +24,24 @@
 .shopNum{ background: url("../img/icon/cutImg/shopNUm.gif")  33px center no-repeat;width: 27px;height: 35px;
     padding-right: 29px;color: #FFF;border-left: 1px #AFBB01 solid; text-align: right }
 /*navBox*/
+.navBox{height: 35px;background-color: #1369C0; color: #FFFFFF;  }
 
-.navBox{height: 35px;background-color: #1369C0; color: #FFFFFF; }
-.nav{list-style-type: none; text-align: center;}
 .nav li{ font: 14px 微软雅黑; float: left;  line-height: 35px}
-.nav a{height: 35px;padding: 0 35px; display: inline-block;color: #FFF}
+.nav a{height: 35px;padding: 0 35px; color: #FFF;display:inline-block}
 .nav .active{background-color: #519AFD}
-.shopClass{width:189px;font: 16px/35px 微软雅黑;}
-.shopClass i{width: 13px;height: 7px;background: url("../img/icon/cutImg/sanjiao.jpg")
+.shopClass{width:189px;font: 16px 微软雅黑; position: relative}
+.shopClass H3{text-align: center; line-height: 35px}
+.shopClass_icon{width: 13px;height: 7px;background: url("../img/icon/cutImg/sanjiao.jpg")
 left center no-repeat; display: inline-block;overflow: hidden ;margin-left: 10px}
+/*商品弹出列表*/
+.showClass_show{background-color:#4593FD;position: absolute;
+    top:35px ;left: 0px;width: 100%}
+.shopClass_item{padding: 13px 10px; border-bottom:#3487F2 solid 1px; border-top:#5AA1FE solid 1px; }
+.shopClass_item dt{height: 25px;background: url("../img/icon/shop_sj.jpg") right center no-repeat}
+.shopClass_item b{font: 14px/1 微软雅黑 ; color: #fff ;font-weight: bold}
+.shopClass_item dd{font: 12px 微软雅黑 ; color: #fff;}
+.shopClass_item .aLink{width: 50px;height: 20px;background: url("../img/icon/aLink_bg.png")left center no-repeat;
+    display: inline-block;line-height: 20px;text-align: center;text-decoration: underline}
 
+
+.shopClass_item a{color: #FFF}
