@@ -42,6 +42,6 @@ left center no-repeat; display: inline-block;overflow: hidden ;margin-left: 10px
 .shopClass_item dd{font: 12px 微软雅黑 ; color: #fff;}
 .shopClass_item .aLink{width: 50px;height: 20px;background: url("../img/icon/aLink_bg.png")left center no-repeat;
     display: inline-block;line-height: 20px;text-align: center;text-decoration: underline}
-
+.nav{}
 
 .shopClass_item a{color: #FFF}
